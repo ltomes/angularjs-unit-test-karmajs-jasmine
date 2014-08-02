@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+	<title>Testing Test</title>
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+	<script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="./app.js"></script>
+</head>
+
+<body ng-controller="defaultCtrl">
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<p>Counter: {{counter}}</p>
+			<p>
+				<button class="btn btn-primary" ng-click="incrementCounter()">Increment</button>
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
+
