@@ -1,4 +1,4 @@
-angularjs-unit-test-karmajs-jasmine
+AngularJS Unit Testing with Karma.js and the Jasmine Framework
 ===================================
 
 Simple AngularJS application built around a set of Karma.js unit tests (using the Jasimine framework)
