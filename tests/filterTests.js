@@ -19,4 +19,8 @@ describe("Filter Tests", function () {
 		expect(result).toEqual("aGOSTO FTW");
 	});
 
+    it("Processes bad data gracefully", function () {
+        var result = filterInstance({"Some Date":"Thats not a string"}, true);
+        expect(result).toEqual({"Some Date":"Thats not a string"});
+	});
 });
